@@ -1,0 +1,59 @@
+main section{
+    max-width: 400px;
+}
+
+#search{
+    width: 100%;
+    height: 60px;
+    padding:0px 10px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* Itens */
+
+.itens{
+    width: 100%;
+    height: 70px;
+    background-color: #4f8ed6;
+}
+
+.itens h2{color: white;}
+
+.icons{font-size: 2rem; z-index: 0; position: relative; pointer-events: none;}
+
+.bto{border: none; background-color: #4f8ed6; z-index: 1; position: relative;}
+.bto:hover{color: white !important;}
+
+/* Adicionar */
+
+#sabor{
+    width: 100%;
+    height: 50px;
+}
+
+/* Caixa de edição */
+.sect{z-index: 0;}
+
+#box-edit{
+    position: absolute;
+    z-index: 100;
+    width: 250px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #244970;
+    border: 1px solid black;
+}
+
+#close-edit{
+    text-align: end;
+    margin-right: 1rem;
+    font-size: 1.3rem !important;
+}
+#close-edit:hover{
+    cursor: pointer;
+    color: white;
+}
